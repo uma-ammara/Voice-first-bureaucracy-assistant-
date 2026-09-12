@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 76px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+body {
+  background-color: #F7F8F6;
+  color: #16241F;
+}
+
+.urdu-text {
+  font-family: "Noto Nastaliq Urdu", "Noto Naskh Arabic", serif;
+  line-height: 2.1;
+  font-size: 1.05rem;
+}
+
+/* Custom scrollbar, subtle */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #0F5C56;
+  border-radius: 999px;
+  opacity: 0.4;
+}
