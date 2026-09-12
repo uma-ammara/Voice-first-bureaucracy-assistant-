@@ -1,0 +1,119 @@
+[
+  {
+    "service_id": "cnic_correction",
+    "service_name": "CNIC Correction",
+    "department": "NADRA",
+    "description": "Procedure for correcting errors on an existing CNIC (e.g. name, date of birth, address)",
+    "keywords": ["cnic", "correction", "name wrong", "identity card", "شناختی کارڈ", "تصحیح", "غلط نام"],
+    "application_location": "Nearest NADRA Registration Center or NADRA's online NADIS portal",
+    "required_documents": [
+      "Original CNIC",
+      "Correction application form (available at the NADRA center)",
+      "Supporting proof of the correction (e.g. Matric certificate, Form-B, or utility bill)"
+    ],
+    "steps": [
+      "Visit the nearest NADRA Registration Center or use the online NADIS portal",
+      "Fill the correction application form and attach the supporting proof document",
+      "Provide biometrics/photo if required and pay the official fee",
+      "Collect the corrected card after the standard processing time"
+    ],
+    "fee": "Approx. Rs. 500 (normal), Rs. 1500 (urgent) - verify current fee at official NADRA office",
+    "processing_time": "7-15 working days (normal), 3-5 days (urgent) - verify current timing at official office",
+    "official_url": "https://www.nadra.gov.pk",
+    "important_note": "Verify exact fees and required documents at the official NADRA center before applying."
+  },
+  {
+    "service_id": "fir_registration",
+    "service_name": "FIR Registration",
+    "department": "Police (respective Provincial Police)",
+    "description": "Procedure for registering a First Information Report (FIR) for a crime or incident",
+    "keywords": ["fir", "police", "complaint", "theft", "stolen", "ایف آئی آر", "پولیس", "چوری", "رپورٹ"],
+    "application_location": "Nearest Police Station having jurisdiction over the location of the incident",
+    "required_documents": [
+      "CNIC of the complainant",
+      "Any evidence related to the incident (photos, documents, witnesses, if available)",
+      "Written or verbal statement of the incident"
+    ],
+    "steps": [
+      "Go to the police station that has jurisdiction over where the incident happened",
+      "Give your statement to the Duty Officer describing the incident in detail",
+      "Ask for a copy of the registered FIR with the FIR number for your records",
+      "If the police refuse to register the FIR, you can approach the relevant SP office or use the provincial police complaint portal"
+    ],
+    "fee": "No fee - FIR registration is free of cost",
+    "processing_time": "Should be registered immediately upon report - verify with the relevant provincial police portal if delayed",
+    "official_url": "https://punjabpolice.gov.pk",
+    "important_note": "FIR registration is a legal right and free of cost. If refused, escalate to a senior police officer or the provincial citizen portal."
+  },
+  {
+    "service_id": "domicile_certificate",
+    "service_name": "Domicile Certificate",
+    "department": "E-Khidmat Center / Assistant Commissioner Office",
+    "description": "Procedure for obtaining a new Domicile Certificate",
+    "keywords": ["domicile", "certificate", "residence", "ڈومیسائل"],
+    "application_location": "Nearest E-Khidmat Center or AC Office",
+    "required_documents": [
+      "Copy of applicant's CNIC / Form B",
+      "Copy of Father's CNIC",
+      "Educational certificates or utility bill",
+      "2 passport-size photographs"
+    ],
+    "steps": [
+      "Obtain application form from E-Khidmat center or website",
+      "Attach all required documents",
+      "Pay official fee challan",
+      "Provide biometrics and photo at center",
+      "Collect certificate after processing days"
+    ],
+    "fee": "Official fee approx RS 200 - 500",
+    "processing_time": "7 to 10 working days",
+    "official_url": "https://e-khidmat.punjab.gov.pk",
+    "important_note": "Verify exact fees at the official center."
+  },
+  {
+    "service_id": "birth_certificate",
+    "service_name": "Birth Certificate",
+    "department": "Union Council / Local Government (via NADRA Child Registration)",
+    "description": "Procedure for registering a birth and obtaining a Birth Certificate / Child Registration Certificate (CRC)",
+    "keywords": ["birth certificate", "birth registration", "پیدائش", "سرٹیفکیٹ", "بی فارم"],
+    "application_location": "Nearest Union Council office or NADRA Registration Center",
+    "required_documents": [
+      "Parents' original CNICs",
+      "Hospital birth notification / discharge slip (if available)",
+      "Marriage certificate of parents (Nikah Nama), if requested"
+    ],
+    "steps": [
+      "Visit the Union Council office or NADRA center within the required registration period",
+      "Fill the birth registration form with the child's and parents' details",
+      "Submit required documents and pay the official fee",
+      "Collect the Birth Certificate / Child Registration Certificate (B-Form) after processing"
+    ],
+    "fee": "Approx. Rs. 50-200 depending on registration timing - verify current fee at Union Council office",
+    "processing_time": "Same day to a few working days, depending on office - verify locally",
+    "official_url": "https://www.nadra.gov.pk",
+    "important_note": "Registering within 30 days of birth is usually free or low-cost in many Union Councils; delayed registration may cost more - verify locally."
+  },
+  {
+    "service_id": "land_record_fard",
+    "service_name": "Land Record (Fard)",
+    "department": "Board of Revenue / Punjab Land Records Authority (PLRA)",
+    "description": "Procedure for obtaining a Fard (record of land ownership/rights)",
+    "keywords": ["fard", "land record", "zameen", "revenue", "فرد", "زمین", "ملکیت"],
+    "application_location": "Nearest Arazi Record Center (Punjab) or respective provincial Board of Revenue office",
+    "required_documents": [
+      "Applicant's original CNIC",
+      "Khewat/Khasra number or property details, if known",
+      "Application form (available at the Arazi Record Center)"
+    ],
+    "steps": [
+      "Visit the nearest Arazi Record Center or use the provincial online land record portal, where available",
+      "Provide the property details (Khewat/Khasra number, mouza/village name) and your CNIC",
+      "Pay the official fee for issuance of the Fard",
+      "Collect the Fard, which may be issued same-day at computerized centers"
+    ],
+    "fee": "Approx. Rs. 100-500 depending on province and record type - verify current fee at the official center",
+    "processing_time": "Often same-day at computerized Arazi Record Centers - verify locally",
+    "official_url": "https://punjab-zameen.gop.pk",
+    "important_note": "Verify the exact office and fee for your province, as land record systems differ between provinces."
+  }
+]

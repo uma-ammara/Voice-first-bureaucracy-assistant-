@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+google-genai
+groq
+gtts
+pydantic
+python-dotenv
+python-multipart
+faiss-cpu
+numpy
+sentence-transformers
